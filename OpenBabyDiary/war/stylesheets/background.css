@@ -1,0 +1,263 @@
+body {
+background:url(../images/bg.jpg) repeat;
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#876039;
+}
+
+p{
+text-align:justify;
+line-height:18px;
+font-weight:bold;
+font-style:italic;
+padding:5px 0 5px 0;
+margin:0px;
+}
+
+p.tab_content{  /*for words in tab */
+width:200px;
+padding:155px 15px 0 15px;
+margin:0px;
+}
+
+a.add_delete{
+float:right;
+padding:0 50px 0 0;
+}
+.clear{
+clear:both;
+}
+
+#main_container{
+width:1080px;
+height:auto;
+margin:auto;
+background:url(../images/header_bg.jpg) no-repeat center top;
+}
+
+#header{
+width:1080px;
+height:160px;
+margin:auto;
+}
+
+#logo{
+clear:both;
+margin:auto;
+width:308px;
+}
+
+/*----------------------menu-------------------------*/
+#menu{
+width:auto;
+background:url(../images/menu_bg.jpg) no-repeat center;
+float:right;
+height:20px;
+padding:0;
+margin:0 20px 0 0;
+}
+#menu ul{
+list-style:none;padding:0px;margin:0px;display:block;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;padding:0px; font-size:12px; font-weight:bold; font-style:italic; line-height:18px;
+}
+#menu ul li.divider{
+list-style:none;display:inline;float:left;width:2px; height:20px; background:url(../images/menu_divider.gif) no-repeat center;padding:0px;
+}
+#menu ul li a{
+float:left;text-decoration:none;padding:0px 10px 0 10px;_padding:0px 9px 0 9px; color:#feecda;text-align:center;
+}
+#menu ul li a:hover{
+text-decoration:none;color: #fff;
+}
+#menu ul li a.current{
+float:left;text-decoration:none;padding:0px 10px 0 10px;_padding:0px 9px 0 9px;color: #fff;
+}
+
+/*-----------------slider----------------------*/
+div#slider {
+width:1020px;
+height:400px;
+padding:0px; 
+margin:0px;
+float:left; 
+position: relative;
+}
+.stripViewer .panelContainer { 
+position: relative;
+left: 0; top: 0;
+width: 100%; height: 100%;
+list-style-type: none;
+float: left; overflow: hidden;
+}
+.stripViewer .panelContainer .panel {
+float:left;
+overflow: hidden;
+position: relative;
+width:900px;
+height:400px;
+padding: 0px;
+}
+div.featured-arrow {
+width:27px; height:89px;
+float: left;
+padding:150px 0px 0px 0px;
+}
+.tab1{
+width:239px;
+height:400px;
+float:left;
+margin:0 5px 0 10px;
+background:url(../images/tab1.gif) no-repeat  center;
+}
+
+.main_content{
+width:878px;
+padding:0px;
+clear:both;
+margin:auto;
+background:url(../images/center_bg.jpg) no-repeat center top;
+}
+
+.left_content{
+width:375px;
+float:left;
+padding:15px 0 30px 20px;
+}
+.right_content{
+width:430px;
+float:left;
+padding:15px 0 30px 40px;
+}
+.title{
+font-size:18px;
+color:#e77330;
+clear:both;
+padding:5px 0 5px 0px;
+}
+img.left_img{
+float:left;
+padding:0 10px 0 0;
+}
+.banner{
+width:374px;
+height:86px;
+float:left;
+background:url(../images/banner_bg.jpg) no-repeat center;
+margin:10px 0 15px 0px;
+}
+img.news_icon{
+float:left;
+padding:12px 0 0 17px;
+}
+p.banner_content{
+width:265px;
+float:left;
+padding:10px 0 0 15px;
+}
+
+P.discription_content{
+padding:10px 0 90px;
+}
+.project_box{
+width:430px;
+float:left;
+clear:both;
+padding:10px 0 30px 0;
+margin:0 0 20px 0;
+}
+.project_title_tab{
+width:436px;
+float:left;
+height:22px;
+}
+.project_bullet{
+width:22px;
+height:22px;
+line-height:22px;
+background:url(../images/green_bullet.jpg) no-repeat center;
+text-align:center;
+color:#FFFFFF;
+float:left;
+font-weight:bold;
+}
+.project_title{
+float:left;
+padding:2px 0 0 7px;
+font-size:14px;
+font-weight:bold;
+color:#95b313;
+}
+.project_content{
+clear:both;
+padding:10px 0 0 0;
+}
+.project_content p{
+padding:0px;
+}
+
+/*add from adam's program, for the create form*/
+.right {float:right;}
+form {width:560px;margin:0px auto;text-align:left;}
+button {
+	background: #cccc66; /* Old browsers */
+	background: -moz-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); /* IE10+ */
+	background: linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+	/* Generated on http://www.colorzilla.com/gradient-editor/ */
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1); 
+	border-color: #eeeced #eeeced #9b9b9b;
+    border-style: solid;
+    border-width: 1px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding:5px 30px;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #fff;
+	cursor:pointer;
+}
+
+button:hover {
+	background:#cccc66;
+}
+
+button:focus, 
+button:active {
+	background:#cccc66;
+}
+
+button.action {
+	background: #fa765f; /* Old browsers */
+	background: -moz-linear-gradient(top, #fa765f 0%, #e15d46 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa765f), color-stop(100%,#e15d46)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #cccc66 0%,#cccc66 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fa765f 0%,#e15d46 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fa765f 0%,#e15d46 100%); /* IE10+ */
+	background: linear-gradient(top, #fa765f 0%,#e15d46 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa765f', endColorstr='#e15d46',GradientType=0 ); /* IE6-9 */
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1); 
+	border-color: #fc7f6b #fc7f6b #d0432f;
+	color:#b13e2d;
+	text-shadow:0px 1px 0px #ffb3a5;
+}
+
+button.action:hover {
+	background:#ffff66;
+}
+
+button.action:focus, 
+button.action:active {
+	background:#ffff33;
+}
